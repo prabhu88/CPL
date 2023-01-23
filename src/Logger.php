@@ -41,7 +41,7 @@ class Logger{
         static::$logger_ready = true;
     }
     
-    private static function add( $message, $name = '', $level = 'debug' ){
+    private static function log( $message, $name = '', $level = 'debug' ){
         if ( static::$log_level_integers[$level] > static::$log_level_integers[static::$log_level] ){
             return;
         }
