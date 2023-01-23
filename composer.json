@@ -1,0 +1,19 @@
+{
+    "name": "cpl/logger",
+    "description": "CPL (Custom PHP Logger): Logging Your App's Activity for Better Performance and Error Tracking",
+    "keywords": ["loger", "logging", "log-tracking","log monitoring","log reporting","error logging","message logging"],
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Cpl\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "prabhu88",
+            "email": "s.prabhu.mtech88@gmail.com"
+        }
+    ],
+    "require": {}
+}
